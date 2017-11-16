@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'dashing',
     'music.apps.MusicConfig',
     'django.contrib.admin',
     'django.contrib.auth',
