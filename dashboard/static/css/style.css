@@ -1,0 +1,49 @@
+.tabs .tab a{
+    color:#3949ab;
+}
+.tabs .tab a:hover,.tabs .tab a.active {
+	background-color:transparent;
+	color:#1a237e;
+}
+.tabs .tab.disabled a,.tabs .tab.disabled a:hover {
+	color:rgba(102,147,153,0.7);
+}
+.tabs .indicator {
+	background-color:#3949ab;
+}
+
+.badge-notification:after{
+    content:"100";
+    position: absolute;
+    background: red;
+    height:0.9rem;
+    top:1rem;
+    right:4.5rem;
+    width:0.9rem;
+    line-height: 2rem;;
+    border-radius: 50%;
+    color:white;
+}
+
+ul.autocomplete-content.dropdown-content{
+    position: absolute;
+}
+
+nav a.button-collapse{
+    display: inline;
+}
+
+#logo{
+    height: 100px;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+#header-dropdown{
+    padding: 0 32px;
+}
+
+#items-dropdown{
+    text-indent: 40px;
+}
