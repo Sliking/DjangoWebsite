@@ -1,0 +1,11 @@
+{% extends "dashboard/header.html" %}
+
+{% block content %}
+
+    {% for post in object_list %}
+
+        <h5>{{ post.date|date:"D d-m-Y" }} ({{ post.date|date:"H:i:s" }})<a href="/blog/{{ post.id }}"> {{ post.title }}</a></h5>
+
+    {% endfor %}
+
+{% endblock %}
